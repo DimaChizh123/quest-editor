@@ -27,5 +27,5 @@ Thumbs.db
 
 # APK-файлы, если ты не хочешь их пушить (если хочешь — оставь release/)
 *.apk
-!release/
-!release/*.apk
+!app/release/
+!app/release/*.apk
