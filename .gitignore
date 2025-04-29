@@ -1,0 +1,31 @@
+# Android build
+/build/
+/app/build/
+
+# Gradle
+/.gradle/
+/gradle/
+*.gradle
+gradle-wrapper.jar
+
+# Local configuration
+/local.properties
+
+# IDE
+/.idea/
+/*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Release keys (никогда не пушь key.jks в гит!)
+*.jks
+
+# Log files
+*.log
+
+# APK-файлы, если ты не хочешь их пушить (если хочешь — оставь release/)
+*.apk
+!release/
+!release/*.apk

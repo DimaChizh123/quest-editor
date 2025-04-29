@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/project_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Название проекта"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"/>
+    
+    <ScrollView
+        android:id="@+id/project_preview_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/preview"
+        android:layout_marginBottom="24dp">
+
+        <LinearLayout
+            android:id="@+id/fragment_run"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Screen Label"/>
+
+            <FrameLayout
+                android:id="@+id/primary_media_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp" />
+
+            <FrameLayout
+                android:id="@+id/secondary_media_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/run_project_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/run_project"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/edit_project_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_project"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/delete_project_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_project"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">QuestEditor</string>
+    <string name="title_hint">Введите заголовок</string>
+    <string name="add_text">Добавить текст</string>
+    <string name="add_image">Добавить изображение</string>
+    <string name="delete_media">Удалить виджет</string>
+    <string name="answer_hint">Введите ответ</string>
+    <string name="submitAnswer">Ответить</string>
+    <string name="previous">Назад</string>
+    <string name="next">Вперёд</string>
+    <string name="delete">Удалить</string>
+    <string name="add">Добавить экран</string>
+    <string name="create_project">Создать новый проект</string>
+    <string name="run_project">Запустить проект</string>
+    <string name="edit_project">Редактировать проект</string>
+    <string name="delete_project">Удалить проект</string>
+    <string name="project_name">Название проекта</string>
+</resources>
